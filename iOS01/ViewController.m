@@ -24,4 +24,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) btnClick
+{
+    NSString *text1 = self.num1.text;
+    NSString *text2 = _num2.text;
+    
+    int num1 = [text1 intValue];
+    int num2 = [text2 intValue];
+    
+    _result.text = [NSString stringWithFormat:@"%d", num1 + num2];
+    NSLog(@"计算结果");
+}
+
 @end
