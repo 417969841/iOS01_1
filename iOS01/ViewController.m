@@ -35,6 +35,7 @@
     _result.text = [NSString stringWithFormat:@"%d", num1 + num2];
     NSLog(@"计算结果");
     NSLog(@"测试分支");
+    NSLog(@"测试github");
 }
 
 @end
