@@ -36,6 +36,7 @@
     NSLog(@"计算结果");
     NSLog(@"测试分支");
     NSLog(@"测试github");
+    NSLog(@"测试push");
 }
 
 @end
