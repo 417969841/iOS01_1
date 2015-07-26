@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)btnClick;
+
+@property (nonatomic, weak) IBOutlet UITextField *num1;
+@property (nonatomic, weak) IBOutlet UITextField *num2;
+
+@property (nonatomic, weak) IBOutlet UILabel *result;
 
 @end
 
